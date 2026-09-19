@@ -59,7 +59,7 @@ This project provides public book browsing APIs and authenticated user features 
 ## Project Structure
 
 ```text
-final_project/
+book-review-api/
 ├── index.js
 ├── package.json
 ├── package-lock.json
@@ -82,7 +82,7 @@ git clone https://github.com/Sambhav587/expressBookReviews.git
 Move into the project:
 
 ```bash
-cd expressBookReviews/final_project
+cd expressBookReviews/book-review-api
 ```
 
 Install dependencies:
