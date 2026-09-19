@@ -2,7 +2,7 @@
 
 A RESTful Book Review Application built with Node.js and Express.js.
 
-This project provides public book browsing APIs and authenticated user features such as registration, login, adding reviews, and deleting reviews. Authentication is handled using JWT and Express sessions.
+This project provides public book browsing APIs, user registration and login, and protected review operations. Authentication is handled using JWT and Express sessions.
 
 ## Features
 
@@ -46,7 +46,7 @@ This project provides public book browsing APIs and authenticated user features 
 
 | Method | Endpoint | Description |
 |---|---|---|
-| POST | `/customer/register` | Register a new user |
+| POST | `/register` | Register a new user |
 | POST | `/customer/login` | Login and receive an access token |
 
 ### Protected Review APIs
@@ -162,7 +162,7 @@ This project demonstrates practical backend development concepts including:
 - User authentication
 - JWT tokens
 - Express sessions
-- CRUD-style review operations
+- Review add/update/delete operations
 - Axios and asynchronous JavaScript
 - Error handling
 - Git and GitHub workflow
